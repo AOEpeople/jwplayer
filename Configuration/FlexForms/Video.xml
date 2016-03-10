@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<common>
+			<ROOT>
+				<type>array</type>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.sheets.common</sheetTitle>
+				</TCEforms>
+				<el>
+					<settings.moviesection>
+						<type>array</type>
+						<section>1</section>
+						<el>
+							<movieitem>
+								<type>array</type>
+								<tx_templavoila>
+									<title>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.movieItem</title>
+								</tx_templavoila>
+								<el>
+									<title>
+										<TCEforms>
+											<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.title</label>
+											<config>
+												<type>input</type>
+												<size>30</size>
+												<default></default>
+											</config>
+										</TCEforms>
+									</title>
+									<description>
+										<TCEforms>
+											<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.description</label>
+											<config>
+												<type>input</type>
+												<size>100</size>
+												<default></default>
+											</config>
+										</TCEforms>
+									</description>
+									<duration>
+										<TCEforms>
+											<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.duration</label>
+											<config>
+												<type>input</type>
+												<size>5</size>
+												<default></default>
+											</config>
+										</TCEforms>
+									</duration>
+									<file_flashhtml5>
+										<TCEforms>
+											<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.flashhtml5</label>
+											<config>
+												<type>group</type>
+												<internal_type>file_reference</internal_type>
+												<allowed>mp4,m4v,f4v</allowed>
+												<uploadfolder></uploadfolder>
+												<max_size>50000</max_size>
+												<size>1</size>
+												<maxitems>1</maxitems>
+												<minitems>0</minitems>
+											</config>
+										</TCEforms>
+									</file_flashhtml5>
+									<file_flash>
+										<TCEforms>
+											<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.flash</label>
+											<config>
+												<type>group</type>
+												<internal_type>file_reference</internal_type>
+												<allowed>flv,3gp,3g2</allowed>
+												<uploadfolder></uploadfolder>
+												<max_size>50000</max_size>
+												<size>1</size>
+												<maxitems>1</maxitems>
+												<minitems>0</minitems>
+											</config>
+										</TCEforms>
+									</file_flash>
+									<file_ogv>
+										<TCEforms>
+											<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.html5_ogv</label>
+											<config>
+												<type>group</type>
+												<internal_type>file_reference</internal_type>
+												<allowed>ogv</allowed>
+												<uploadfolder></uploadfolder>
+												<max_size>50000</max_size>
+												<size>1</size>
+												<maxitems>1</maxitems>
+												<minitems>0</minitems>
+											</config>
+										</TCEforms>
+									</file_ogv>
+									<file_webm>
+										<TCEforms>
+											<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.html5_webm</label>
+											<config>
+												<type>group</type>
+												<internal_type>file_reference</internal_type>
+												<allowed>webm</allowed>
+												<uploadfolder></uploadfolder>
+												<max_size>50000</max_size>
+												<size>1</size>
+												<maxitems>1</maxitems>
+												<minitems>0</minitems>
+											</config>
+										</TCEforms>
+									</file_webm>
+									<url>
+										<TCEforms>
+											<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.url</label>
+											<config>
+												<type>input</type>
+												<size>30</size>
+												<default></default>
+											</config>
+										</TCEforms>
+									</url>
+									<image>
+										<TCEforms>
+											<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.previewImage</label>
+									 		<config>
+												<type>group</type>
+												<internal_type>file_reference</internal_type>
+												<allowed>jpg,png,gif</allowed>
+												<uploadfolder></uploadfolder>
+												<max_size>10000</max_size>
+												<size>1</size>
+												<maxitems>1</maxitems>
+												<minitems>0</minitems>
+											</config>
+										</TCEforms>
+									</image>
+								</el>
+							</movieitem>
+						</el>
+					</settings.moviesection>
+					<settings.width>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.width</label>
+							<config>
+								<type>input</type>
+								<eval>int</eval>
+								<size>3</size>
+								<default>250</default>
+							</config>
+						</TCEforms>
+					</settings.width>
+					<settings.height>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.height</label>
+							<config>
+								<type>input</type>
+								<eval>int</eval>
+								<size>3</size>
+								<default>250</default>
+							</config>
+						</TCEforms>
+					</settings.height>
+					<settings.controlbar>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.controlbar</label>
+							<config>
+								<type>select</type>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.controlbar.bottom</numIndex>
+										<numIndex index="1">bottom</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.controlbar.top</numIndex>
+										<numIndex index="1">top</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.controlbar.over</numIndex>
+										<numIndex index="1">over</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.controlbar.none</numIndex>
+										<numIndex index="1">none</numIndex>
+									</numIndex>
+								</items>
+								<default>bottom</default>
+							</config>
+						</TCEforms>
+					</settings.controlbar>
+				</el>
+			</ROOT>
+		</common>
+		<playlist>
+			<ROOT>
+				<type>array</type>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.sheets.playlist</sheetTitle>
+				</TCEforms>
+				<el>
+					<settings.playlistposition>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.playlistposition</label>
+							<config>
+								<type>select</type>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.playlistposition.top</numIndex>
+										<numIndex index="1">top</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.playlistposition.left</numIndex>
+										<numIndex index="1">left</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.playlistposition.right</numIndex>
+										<numIndex index="1">right</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.controlbar.bottom</numIndex>
+										<numIndex index="1">bottom</numIndex>
+									</numIndex>
+								</items>
+								<default>right</default>
+							</config>
+						</TCEforms>
+					</settings.playlistposition>
+					<settings.playlistsize>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.playlistsize</label>
+							<config>
+								<type>input</type>
+								<eval>int</eval>
+								<size>3</size>
+								<default>250</default>
+							</config>
+						</TCEforms>
+					</settings.playlistsize>
+				</el>
+			</ROOT>
+		</playlist>
+		<video>
+			<ROOT>
+				<type>array</type>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.sheets.video</sheetTitle>
+				</TCEforms>
+				<el>
+					<settings.autostart>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.autostart</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.autostart>
+					<settings.repeat>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.repeat</label>
+							<config>
+								<type>select</type>
+								<maxitems>1</maxitems>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.repeat.none</numIndex>
+										<numIndex index="1">none</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.repeat.single</numIndex>
+										<numIndex index="1">single</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.repeat.list</numIndex>
+										<numIndex index="1">list</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.repeat.always</numIndex>
+										<numIndex index="1">always</numIndex>
+									</numIndex>
+								</items>
+								<default>none</default>
+							</config>
+						</TCEforms>
+					</settings.repeat>
+					<settings.bufferlength>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.bufferlength</label>
+							<config>
+								<type>input</type>
+								<eval>int</eval>
+								<size>3</size>
+							</config>
+						</TCEforms>
+					</settings.bufferlength>
+					<settings.stretching>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.stretching</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.stretching.none</numIndex>
+										<numIndex index="1">none</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.stretching.exactfit</numIndex>
+										<numIndex index="1">exactfit</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.stretching.uniform</numIndex>
+										<numIndex index="1">uniform</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.stretching.fill</numIndex>
+										<numIndex index="1">fill</numIndex>
+									</numIndex>
+								</items>
+								<default>uniform</default>
+							</config>
+						</TCEforms>
+					</settings.stretching>
+				</el>
+			</ROOT>
+		</video>
+		<sound>
+			<ROOT>
+				<type>array</type>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.sheets.sound</sheetTitle>
+				</TCEforms>
+				<el>
+					<settings.volume>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.volume</label>
+							<config>
+								<type>input</type>
+								<eval>int</eval>
+								<size>2</size>
+								<default>90</default>
+							</config>
+						</TCEforms>
+					</settings.volume>
+					<settings.mute>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.mute</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.mute>
+				</el>
+			</ROOT>
+		</sound>
+		<plugins>
+			<ROOT>
+				<type>array</type>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.sheets.plugins</sheetTitle>
+				</TCEforms>
+				<el>
+					<settings.facebookPlugin>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.facebookPlugin</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.facebookPlugin>
+				</el>
+			</ROOT>
+		</plugins>
+		<metatags>
+			<ROOT>
+				<type>array</type>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.sheets.metatags</sheetTitle>
+				</TCEforms>
+				<el>
+					<settings.add_metatags>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.add_metatags</label>
+							<config>
+								<type>check</type>
+								<default>0</default>
+							</config>
+						</TCEforms>
+					</settings.add_metatags>
+					<settings.metatag_title>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.metatag_title</label>
+							<config>
+								<type>input</type>
+								<eval>trim</eval>
+								<size>20</size>
+								<max>100</max>
+							</config>
+						</TCEforms>
+					</settings.metatag_title>
+					<settings.metatag_description>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.metatag_description</label>
+							<config>
+								<type>input</type>
+								<eval>trim</eval>
+								<size>20</size>
+								<max>255</max>
+							</config>
+						</TCEforms>
+					</settings.metatag_description>
+				</el>
+			</ROOT>
+		</metatags>
+		<skin>
+			<ROOT>
+				<type>array</type>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.sheets.skin</sheetTitle>
+				</TCEforms>
+				<el>
+					<settings.skin>
+						<TCEforms>
+							<label>LLL:EXT:jwplayer/Resources/Private/Language/locallang_db.xml:flexform.video.settings.skin</label>
+					 		<config>
+								<type>group</type>
+								<internal_type>file_reference</internal_type>
+								<allowed>swf,zip</allowed>
+								<uploadfolder></uploadfolder>
+								<max_size>10000</max_size>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+							</config>
+						</TCEforms>
+					</settings.skin>
+				</el>
+			</ROOT>
+		</skin>
+	</sheets>
+</T3DataStructure>
